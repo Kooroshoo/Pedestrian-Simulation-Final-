@@ -674,6 +674,7 @@ MonoBehaviour:
   groupDistance: 5
   avoidDistance: 2
   rotationSpeed: 2
+  avoidObstacles: 0
 --- !u!4 &205893711
 Transform:
   m_ObjectHideFlags: 0
@@ -1924,7 +1925,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 922309026}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.83, y: -1.3, z: 1.0699997}
+  m_LocalPosition: {x: -1.97, y: -1.3, z: 1.0699997}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1725596560}
