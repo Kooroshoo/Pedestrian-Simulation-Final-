@@ -20,7 +20,7 @@ public class PedestrianBehaviour : MonoBehaviour
         FlockingRules();
         MoveTowardsGoal();
 
-        if (Physics.Raycast(transform.position, this.transform.forward,out hit, 3) && hit.collider.gameObject.name != this.name )
+        if (Physics.Raycast(transform.position, this.transform.forward,out hit, 2) && hit.collider.gameObject.name != this.name )
         {
             if (myManager.avoidObstacles)
             {
@@ -38,7 +38,7 @@ public class PedestrianBehaviour : MonoBehaviour
         RaycastHit hit = new RaycastHit();
         Vector3 direction = Vector3.zero;
 
-        if (Physics.Raycast(transform.position, this.transform.forward, out hit, 3)  )
+        if (Physics.Raycast(transform.position, this.transform.forward, out hit, 2)  )
         {
             Debug.Log(hit.collider.gameObject.name);
             turning = true;
@@ -55,7 +55,7 @@ public class PedestrianBehaviour : MonoBehaviour
                                                   Quaternion.LookRotation(direction),
                                                   myManager.rotationSpeed * Time.deltaTime);
 
-            
+            transform.Translate(0, 0, Time.deltaTime * (1));
         }
     }
 
@@ -121,7 +121,7 @@ public class PedestrianBehaviour : MonoBehaviour
         }
         else if (turning)
         {
-            transform.Translate(0, 0, Time.deltaTime * (-0.5f));
+            //transform.Translate(0, 0, Time.deltaTime * (-0.5f));
             turning = false;
         }
 
