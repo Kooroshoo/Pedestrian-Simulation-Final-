@@ -55,7 +55,7 @@ public class PedestrianBehaviour : MonoBehaviour
                                                   Quaternion.LookRotation(direction),
                                                   myManager.rotationSpeed * Time.deltaTime);
 
-            transform.Translate(0, 0, Time.deltaTime * (1));
+            transform.Translate(0, 0, Time.deltaTime * (0.5f));
         }
     }
 
