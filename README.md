@@ -9,7 +9,7 @@ The second model is Optimal Reciprocal Collision Avoidance (ORCA) by Jur van den
 
 ![gif Orca](https://user-images.githubusercontent.com/26629624/83361231-84136f00-a387-11ea-9312-b64b01d43504.gif)
 
-For achieving a more realistic behavior we have also combined the two models with the A star path finding algorithm. We will compare these two algorithms in two scenarios: where a large crowd wants to exit a building, and where two groups of pedestrians want to pass one another in a hallway.
+For achieving a more realistic behavior we have also combined the two models with the A star path finding algorithm. We have compared these two algorithms in two scenarios: where a large crowd wants to exit a building, and where two groups of pedestrians want to pass one another in a hallway.
 
 For the implementation of the ORCA model, we used the RVO library: [Link](http://gamma.cs.unc.edu/RVO2/)
 
