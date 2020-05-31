@@ -13,6 +13,6 @@ For achieving a more realistic behavior we have also combined the two models wit
 
 For the implementation of the ORCA model, we used the RVO library: [Link](http://gamma.cs.unc.edu/RVO2/)
 
-We used the A* Pathfinding algorithm from: [Link](https://arongranberg.com/astar/download)
+We acquired the A* algorithm from the A* Pathfinding Project available at: [Link](https://arongranberg.com/astar/download)
 
 
