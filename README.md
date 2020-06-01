@@ -11,6 +11,8 @@ The second model is Optimal Reciprocal Collision Avoidance (ORCA) by Jur van den
 
 For achieving a more realistic behavior we have also combined the two models with the A star path finding algorithm. We have compared these two algorithms in two scenarios: where a large crowd wants to exit a building, and where two groups of pedestrians want to pass one another in a hallway.
 
+This project is done in Unity 2017.4
+
 For the implementation of the ORCA model, we used the RVO library: [Link](http://gamma.cs.unc.edu/RVO2/)
 
 We acquired the A* algorithm from the A* Pathfinding Project available at: [Link](https://arongranberg.com/astar/download)
