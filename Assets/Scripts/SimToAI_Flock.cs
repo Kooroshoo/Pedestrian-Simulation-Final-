@@ -13,6 +13,7 @@ public class SimToAI_Flock : MonoBehaviour {
 		
 		GetComponent<AIDestinationSetter>().target = GetComponent<PedestrianBehaviour>().myManager.goal.transform;
 		GetComponent<AIPath>().maxSpeed = GetComponent<PedestrianBehaviour>().speed;
+		GetComponent<Statistics>().speed = GetComponent<PedestrianBehaviour>().speed;
 	}
 	
 	// Update is called once per frame

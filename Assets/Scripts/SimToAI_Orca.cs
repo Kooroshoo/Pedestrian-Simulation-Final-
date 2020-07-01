@@ -20,6 +20,7 @@ public class SimToAI_Orca : MonoBehaviour {
 		GetComponent<AIPath>().radius = orcaManager.avoidDistance;
 		GetComponent<AIPath>().rotationSpeed = orcaManager.rotationSpeed;
 		GetComponent<RVOController>().maxNeighbours = orcaManager.maxNeighbours;
+		GetComponentInChildren<Statistics>().speed = speed;
 	}
 	
 	// Update is called once per frame

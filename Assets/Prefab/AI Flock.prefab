@@ -27,6 +27,7 @@ GameObject:
   - component: {fileID: 136625313117316452}
   - component: {fileID: 54747267870843396}
   - component: {fileID: 114715016163039424}
+  - component: {fileID: 114019017608254756}
   m_Layer: 0
   m_Name: AI Flock
   m_TagString: Untagged
@@ -134,6 +135,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!114 &114019017608254756
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1154259175912914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ce18b18c7a61ea44a5e045fa0fe3872, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114043231885370658
 MonoBehaviour:
   m_ObjectHideFlags: 1
