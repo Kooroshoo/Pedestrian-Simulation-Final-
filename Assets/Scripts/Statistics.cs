@@ -13,7 +13,7 @@ public class Statistics : MonoBehaviour {
 	int numberOfCollisions = 0;
 	float endTime = 120.0f;
 	float dist;
-	float timespent;
+	float timespent=0;
 	public float speed;
 	Vector3 targetPosition;
 	Vector3 selfPosition;
