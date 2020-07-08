@@ -40,9 +40,9 @@ public class PedestrianBehaviour : MonoBehaviour
 
         if (Physics.Raycast(transform.position, this.transform.forward, out hit, 2)  )
         {
-            Debug.Log(hit.collider.gameObject.name);
+            //Debug.Log(hit.collider.gameObject.name);
             turning = true;
-            Debug.DrawRay(this.transform.position, this.transform.forward * 1, Color.red);
+            //Debug.DrawRay(this.transform.position, this.transform.forward * 1, Color.red);
             direction = Vector3.Reflect(this.transform.forward, hit.normal);
         }
         else
